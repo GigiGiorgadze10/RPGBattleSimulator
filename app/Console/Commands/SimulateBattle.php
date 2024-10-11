@@ -22,12 +22,11 @@ class SimulateBattle extends Command
     {
         $warrior = new Warrior('Aragorn', 100, 30);
         $mage = new Mage('Gandalf', 80, 25);
-        $healer = new Healer('Elrond', 70, 20); // Add a Healer to the battle
+        $healer = new Healer('Elrond', 70, 20);
 
         $battle = new Battle();
 
-        // Simulate a battle between the three characters
         $battle->simulate($warrior, $mage);
-        $battle->simulate($warrior, $healer); // Add battle involving the healer
+        $battle->simulate($warrior, $healer); 
     }
 }

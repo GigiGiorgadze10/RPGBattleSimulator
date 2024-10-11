@@ -1,5 +1,4 @@
 <?php
-// app/Models/Battle.php
 
 namespace App\Models;
 

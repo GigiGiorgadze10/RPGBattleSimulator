@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-// app/Models/Character.php
-
 abstract class character
 {
     protected $name;
@@ -17,7 +15,6 @@ abstract class character
         $this->attackPower = $attackPower;
     }
 
-    // Add public getters
     public function getName()
     {
         return $this->name;
